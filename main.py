@@ -11,10 +11,10 @@ USAGE
 -----
   export OPENAI_API_KEY=sk-...
   pip install openai aiofiles tiktoken mypy types-requests
-  python script5.py <repo_or_git_url> 
+  python main.py <repo_or_git_url> 
 
 Run mypy:
-  mypy script5.py
+  mypy main.py
 
  mypy.ini (saved in project root)
 -----------------------------------------
