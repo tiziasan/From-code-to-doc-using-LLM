@@ -9,7 +9,7 @@ Async arc42 generator + mypy-ready types (strict, fully patched)
 
 USAGE
 -----
-  export OPENAI_API_KEY=sk-...
+  export OPENAI_API_KEY=
   pip install openai aiofiles tiktoken mypy types-requests
   python main.py <repo_or_git_url> 
 
